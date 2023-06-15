@@ -1,6 +1,6 @@
 ---
 - name: Retrieve and print device hostname
-  hosts: apics
+  hosts: all
   gather_facts: yes
 
   tasks:
