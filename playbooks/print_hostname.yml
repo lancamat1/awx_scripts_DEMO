@@ -1,6 +1,6 @@
 ---
 - name: Retrieve and print device hostname
-  hosts: hosts
+  hosts: all
   gather_facts: yes
 
   tasks:
