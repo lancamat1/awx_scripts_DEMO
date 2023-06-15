@@ -1,0 +1,9 @@
+---
+all:
+  hosts:
+    apic1:
+      ansible_host: 10.17.87.60
+    apic2:
+      ansible_host: 10.17.87.61
+    apic3:
+      ansible_host: 10.17.87.62
